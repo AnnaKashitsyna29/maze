@@ -141,7 +141,7 @@ int main() {
     RenderWindow window(VideoMode(7 * ts, 7 * ts), "Game");
 
     Texture t;
-    t.loadFromFile("C:/Users/turko/Downloads/Game/Paint/Bplat.png");
+    t.loadFromFile("../../resources/assets/Bplat.png");
     Sprite plat(t);
 
     int x = 1, y = 19;
@@ -150,20 +150,20 @@ int main() {
     int nx = 2, ny = 5;
 
     Texture w;
-    w.loadFromFile("C:/Users/turko/Downloads/Game/Paint/win.png");
+    w.loadFromFile("../../resources/assets/win.png");
     Sprite win(w);
     win.setPosition(20, 140);
 
     Texture ti;
-    ti.loadFromFile("C:/Users/turko/Downloads/Game/Paint/time.png");
+    ti.loadFromFile("../../resources/assets/time.png");
     Stopwatch watch(ti);
 
     Texture sc;
-    sc.loadFromFile("C:/Users/turko/Downloads/Game/Paint/score.png");
+    sc.loadFromFile("../../resources/assets/score.png");
     Score score(sc);
 
     Texture p;
-    p.loadFromFile("C:/Users/turko/Downloads/Game/Paint/pause.png");
+    p.loadFromFile("../../resources/assets/pause.png");
     Sprite pause(p);
     pause.setPosition(80, 140);
 
